@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0;}
+
+/* Chat */
+#form{bottom: 0; left: 0; right: 0; position: fixed; height: 30px; background: #dedede; border-top : 3px solid #1c1c1c;}
+#users{width: 200px; background: #1c1c1c; position: fixed; top: 0; left: 0; bottom: 0; border-right: 1px solid #1c1c1c;}
+#messages{position: fixed; top: 0; left: 201px; bottom: 33px; right: 0; background: #ebebeb;}
+
+/* Login */
+#loginForm{position: fixed; top: 0; left: 0; display: none; background: white; border-radius: 5px; border: 1px solid #dedede; height: 100px; width: 350px;}
+#loginForm .btn{background: linear-gradient(to bottom, #1e6f8e, #3aa6d0); color: white; height: 20px; line-height: 20px; text-align: center; border: 1px solid #155a74;}
+#loginForm fieldset{padding: 5px; margin: 5px;}
+#loginForm fieldset legend{margin-left: 5px;}
+
+/* Users */
+.user{color: #dedede; height: 20px; line-height: 20px; padding: 5px; font-size: 15px; border-bottom: 1px solid #0b0b0b;}
+
+/* Messages */
+.message{background: #dedede; height: 50px; margin: 5px; border-radius: 5px; border : 1px solid #1c1c1c;}
+.message .auteur{font-weight: bold;}
